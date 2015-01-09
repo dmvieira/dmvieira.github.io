@@ -31,7 +31,7 @@ body {
 .siteheader {
     margin-bottom: 30px;
     overflow: visible;
-    height: 200px;
+    height: 260px;
 }
 
 .siteimage {
@@ -56,12 +56,20 @@ body {
 
 /* The navbar. */
 
-.menu {
+.menu-right {
+    float: right;
     font-size: 1.3em;
     /* padding-left: 30px; */
 }
 
-.menu li {
+.menu-left {
+    float: left;
+    font-size: 1.3em;
+    /* padding-left: 30px; */
+}
+
+
+.menu-left li, menu-right li {
     display: inline;
     margin-right: 10px;
 }
@@ -240,4 +248,6 @@ footer {
     font-size: .7em;
     height: 30px;
     position: absolute;
+    text-align: center;
+    width: 60%;
 }
