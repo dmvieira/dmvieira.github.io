@@ -16,12 +16,9 @@ PAGE_URL = '{slug}.html'
 
 THEME = 'crowsfoot'
 
-TIMEZONE = 'Europe/Paris'
-
+TIMEZONE = 'America/Sao_Paulo'
+LOCALE = ['en_US.utf8']
 DEFAULT_LANG = u'en'
-
-DEFAULT_PAGINATION = 5
-
 
 SITEURL = 'http://diogomunaro.com'
 RELATIVE_URLS = False
