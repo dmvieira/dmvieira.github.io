@@ -9,6 +9,7 @@ SITEURL = 'http://diogomunaro.com'
 
 PATH = 'content'
 OUTPUT_PATH = '../'
+ARTICLE_PATHS = ['blog']
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
