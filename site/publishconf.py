@@ -20,5 +20,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
+PDF_GENERATOR = True
+GITHUB_URL = 'http://github.com/dmvieira/'
 DISQUS_SITENAME = "diogomunaro.disqus.com"
 GOOGLE_ANALYTICS = "UA-58403599-1"

@@ -4,21 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Diogo Munaro Vieira'
 SITENAME = u'Diogo Munaro Vieira'
-SITEURL = ''
+SITEURL = 'http://diogomunaro.com'
 
 PATH = 'content'
 OUTPUT_PATH = '../'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -32,5 +25,16 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 5
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+
+SITEURL = 'http://diogomunaro.com'
+RELATIVE_URLS = False
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+
+# Following items are often useful when publishing
+
+PDF_GENERATOR = True
+GITHUB_URL = 'http://github.com/dmvieira/'
+DISQUS_SITENAME = "diogomunaro.disqus.com"
+GOOGLE_ANALYTICS = "UA-58403599-1"
