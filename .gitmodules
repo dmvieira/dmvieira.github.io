@@ -1,0 +1,3 @@
+[submodule "site/crowsfoot"]
+	path = site/crowsfoot
+	url = git@github.com:dmvieira/crowsfoot.git

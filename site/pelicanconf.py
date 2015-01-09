@@ -44,7 +44,7 @@ EMAIL_ADDRESS = 'diogo.mvieira@gmail.com'
 TWITTER_ADDRESS = 'https://twitter.com/diogomvieira'
 FB_ADDRESS = 'https://pt-br.facebook.com/munarovieira'
 LINKEDIN_ADDRESS = 'https://br.linkedin.com/in/dmvieira'
-
+PROFILE_IMAGE_URL = 'https://pt.gravatar.com/userimage/34518379/821607f3755e2bf394491f052ed24d2e.jpg?size=400'
 
 DISQUS_SITENAME = "diogomunaro"
 GOOGLE_ANALYTICS = "UA-58403599-1"
