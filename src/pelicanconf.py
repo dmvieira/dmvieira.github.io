@@ -6,6 +6,7 @@ AUTHOR = u'Diogo Munaro Vieira'
 SITENAME = u'Diogo Munaro Vieira'
 SITESUBTITLE = u'Because IT is Simple and Programming is Cool'
 SITEURL = 'http://diogomunaro.com'
+MENUITEMS = [('Home', '/')]
 
 PATH = 'content'
 OUTPUT_PATH = '../'
@@ -15,7 +16,7 @@ PAGE_URL = '{slug}.html'
 
 THEME = 'crowsfoot'
 
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
