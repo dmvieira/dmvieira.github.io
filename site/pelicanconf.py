@@ -8,6 +8,10 @@ SITEURL = 'http://diogomunaro.com'
 
 PATH = 'content'
 OUTPUT_PATH = '../'
+PAGE_SAVE_AS = '{slug}.html'
+PAGE_URL = '{slug}.html'
+
+THEME = 'crowsfoot'
 
 TIMEZONE = 'America/Sao_Paulo'
 
@@ -28,13 +32,19 @@ DEFAULT_PAGINATION = 5
 
 SITEURL = 'http://diogomunaro.com'
 RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 # Following items are often useful when publishing
 
-PDF_GENERATOR = True
-GITHUB_URL = 'http://github.com/dmvieira/'
-DISQUS_SITENAME = "diogomunaro.disqus.com"
+GITHUB_ADDRESS = 'http://github.com/dmvieira/'
+EMAIL_ADDRESS = 'diogo.mvieira@gmail.com'
+TWITTER_ADDRESS = 'https://twitter.com/diogomvieira'
+FB_ADDRESS = 'https://pt-br.facebook.com/munarovieira'
+LINKEDIN_ADDRESS = 'https://br.linkedin.com/in/dmvieira'
+
+
+DISQUS_SITENAME = "diogomunaro"
 GOOGLE_ANALYTICS = "UA-58403599-1"
