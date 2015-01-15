@@ -12,10 +12,10 @@
             export from database for users.
         &lt;/p&gt;
         &lt;p&gt;
-            Some good ways for users to handle spreadsheets is using Excel,
+            Some good ways for users to handle spreadsheets are using Excel,
             Libreoffice, Google Drive and others. For the user is really simple
             to open a lot of formats and different extensions because these
-            programs already do the hard work, but nobody take care of programmers
+            programs already do all hard work, but nobody take care of programmers
             (specially Python programmers)...
             We need to use a lot of difficult modules and find a way to read every
             strange spreadsheet format.
@@ -46,13 +46,16 @@
         &lt;/p&gt;
         &lt;p&gt;
             I remember when Microsoft changed default format from XLS to XLSX. The number of
-            systems crashing because people don't know that extension changed and
+            systems crashing because people don't know that extension and
             the number of help desk problems was (and continue) huge! So why not handle sheets
             as an easy way to programmer? The better approach is using sheets, because a
-            CSV sheet can be handled exactly equal to XLS or XLSX or ODS sheet. The main
-            difference is style (programmers hate sheet styles, but users love), but programmers
+            CSV sheet can be handled exactly equal to XLS or XLSX or ODS sheet.
+
+        &lt;/p&gt;
+        &lt;p&gt;
+            The main difference between sheets is style (programmers hate sheet styles, but users love), but programmers
             love simple data, not styles, colors, etc. By now &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;
-            can easily open CSV, XLS, XLSX files and convert between them. With &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;
+            can easily open CSV, XLS, XLSX files and convert between them (only data, no styles!). With &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;
             you can open even physical files or memory files and convert between them too!
         &lt;/p&gt;
         &lt;p&gt;
@@ -74,7 +77,7 @@
         &lt;/h3&gt;
         &lt;p&gt;
             Go and use &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;. You can
-            collaborate with the project in &lt;a target="_blank" href="https://github.com/kappius/pyheaderfile"&gt;GitGub&lt;/a&gt;.
+            collaborate with the project in &lt;a target="_blank" href="https://github.com/kappius/pyheaderfile"&gt;GitHub&lt;/a&gt;.
             I hope you enjoy!
         &lt;/p&gt;
     </summary><category term="xls"></category><category term="xlsx"></category><category term="csv"></category><category term="excel"></category><category term="libreoffice"></category><category term="python"></category><category term="module"></category><category term="stylesheet"></category></entry></feed>
