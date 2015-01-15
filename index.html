@@ -2,12 +2,22 @@
 <html lang="en">
 
   <head>
-      <title>Diogo Munaro Vieira</title>
+      <title>Diogo Munaro Vieira | Because Programming is Cool and IT needs simplicity</title>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
       <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
       <link rel="stylesheet" type="text/css" href="./theme/css/icons.css"/>
       <link rel="stylesheet" type="text/css" href="./theme/css/styles.css"/>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="http://www.parsecdn.com/js/parse-1.2.16.min.js"></script>
+
+      <script src="./theme/js/emailer.js"></script>
+
+      <style type="text/css">
+          #response { display:none; padding: 5px;}
+          .success { background-color: #30EB8E;}
+          .error { background-color: #E98C8F;}
+      </style>
       <meta charset="utf-8" />
   </head>
 
@@ -23,15 +33,15 @@
 
       <div class = "sitebanner">
         <h1><a class="sitetitle nodec" href=".">Diogo Munaro Vieira</a></h1>
-        <h3 class ="sitesubtitle">Because IT is Simple and Programming is Cool</h3>
+        <h3 class ="sitesubtitle">Because Programming is Cool and IT needs simplicity</h3>
         <!-- nav -->
         <div class="menu-left">
           <ul>
             <!-- services icons -->
-              <li><a class="nodec icon-mail-alt" href="mailto:diogo.mvieira@gmail.com"></a></li>
-              <li><a class="nodec icon-github" href="http://github.com/dmvieira/"></a></li>
-              <li><a class="nodec icon-twitter" href="https://twitter.com/diogomvieira"></a></li>
-              <li><a class="nodec icon-linkedin" href="https://br.linkedin.com/in/dmvieira"></a></li>
+              <li><a class="nodec icon-mail-alt" target="_blank" href="mailto:diogo.mvieira@gmail.com"></a></li>
+              <li><a class="nodec icon-github" target="_blank" href="http://github.com/dmvieira/"></a></li>
+              <li><a class="nodec icon-twitter" target="_blank" href="https://twitter.com/diogomvieira"></a></li>
+              <li><a class="nodec icon-linkedin" target="_blank" href="https://br.linkedin.com/in/dmvieira"></a></li>
           </ul>
         </div>
         <nav class="menu-right">
@@ -40,6 +50,7 @@
               <li><a class="nodec" href="/">Home</a></li>
             <!--pages-->
                 <li><a class="nodec" href="./about.html">About</a></li>
+                <li><a class="nodec" href="./contact.html">Contact</a></li>
           </ul>
         </nav>
       </div> <!-- sitebanner -->
@@ -53,6 +64,21 @@
 
     <li class="post">
         <header class="posttitle">
+          <h3><a href="./using-pelican-github-parse-and-sendgrid-to-make-your-free-website.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Using Pelican, Github, Parse and Sendgrid to make your free website.">Using Pelican, Github, Parse and Sendgrid to make your free website.</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2015-01-23T17:27:00-02:00"> Fri 23 January 2015 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> How you can do your free website using Github pages host and sending emails using Sendgrid. </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
           <h3><a href="./using-pyheaderfile-to-handle-spreadsheets.html"
                   rel="bookmark"
                   class="nodec"
@@ -61,10 +87,10 @@
         </header>
 
         <div class="postinfo">
-          <p class="published" title="2015-01-09T17:23:00-02:00"> Fri 09 January 2015 </p>
+          <p class="published" title="2015-01-09T17:27:00-02:00"> Fri 09 January 2015 </p>
         </div><!-- /.postinfo -->
 
-        <div class="postsummary"> Showing how to handle excel and csv files in python when these files have header </div>
+        <div class="postsummary"> Showing why handle excel and csv sheets in python when these files have header instead of hole file. </div>
     </li>
 
   </ol><!-- /#post-list -->

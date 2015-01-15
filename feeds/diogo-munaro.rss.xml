@@ -1,4 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diogo Munaro Vieira</title><link>http://diogomunaro.com/</link><description>Because IT is Simple and Programming is Cool</description><atom:link href="http://diogomunaro.com/feeds/diogo-munaro.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 09 Jan 2015 17:23:00 -0200</lastBuildDate><item><title>Using PyHeaderFile to handle spreadsheets</title><link>http://diogomunaro.com/using-pyheaderfile-to-handle-spreadsheets.html</link><description>
-        Under construction
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 09 Jan 2015 17:23:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-01-09:using-pyheaderfile-to-handle-spreadsheets.html</guid><category>xls</category><category>xlsx</category><category>csv</category><category>excel</category><category>libreoffice</category><category>python</category><category>module</category></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diogo Munaro Vieira</title><link>http://diogomunaro.com/</link><description>Because Programming is Cool and IT needs simplicity</description><atom:link href="http://diogomunaro.com/feeds/diogo-munaro.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 23 Jan 2015 17:27:00 -0200</lastBuildDate><item><title>Using Pelican, Github, Parse and Sendgrid to make your free website.</title><link>http://diogomunaro.com/using-pelican-github-parse-and-sendgrid-to-make-your-free-website.html</link><description>
+        &lt;p&gt;Under construction... Just in release date.&lt;/p&gt;
+    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 23 Jan 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-01-23:using-pelican-github-parse-and-sendgrid-to-make-your-free-website.html</guid><category>pelican</category><category>github</category><category>sendgrid</category><category>website</category><category>python</category><category>free</category><category>tutorial</category></item><item><title>Using PyHeaderFile to handle spreadsheets</title><link>http://diogomunaro.com/using-pyheaderfile-to-handle-spreadsheets.html</link><description>
+        &lt;h3&gt;
+            Why working with Stylesheets?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Spreadsheets are a 'proxy' between users and developers. With them,
+            users can input data and organize things then send as input to
+            systems, while programmers can handle these sheets and import or
+            export from database for users.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Some good ways for users to handle spreadsheets is using Excel,
+            Libreoffice, Google Drive and others. For the user is really simple
+            to open a lot of formats and different extensions because these
+            programs already do the hard work, but nobody take care of programmers
+            (specially Python programmers)...
+            We need to use a lot of difficult modules and find a way to read every
+            strange spreadsheet format.
+        &lt;/p&gt;
+        &lt;h3&gt;
+            Why Python programmers can relax right now.
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Yes, now Python community earned a module called
+            &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;!
+            PyHeaderFile is an interface to handle sheets. No, not spreadsheets, but only
+            sheets. Example of libreoffice sheet:
+        &lt;/p&gt;
+
+            &lt;img alt="libreoffice sheet" src="/images/sheet.png" /&gt;
+        &lt;h3&gt;
+            But why Sheets?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Sheets are beautiful! Spreadsheets are ugly... Spreadsheets add a lot of complexity
+            when we handle it using &lt;a target="_blank" href="https://pypi.python.org/pypi/xlrd"&gt;Xlrd&lt;/a&gt;,
+            &lt;a target="_blank" href="https://pypi.python.org/pypi/xlwt"&gt;Xlwt&lt;/a&gt;,
+            &lt;a target="_blank" href="https://pypi.python.org/pypi/openpyxl"&gt;Openpyxl&lt;/a&gt;,
+            &lt;a href="http://pandas.pydata.org/"&gt;Pandas&lt;/a&gt; or even Python CSV (comma separated values)
+            default module, but users usually use something different from commas to separate information in
+            what I like to call as GWSV (guess what separated values).
+            So you need to tell user: "send me in that format or I will kill you!"...
+        &lt;/p&gt;
+        &lt;p&gt;
+            I remember when Microsoft changed default format from XLS to XLSX. The number of
+            systems crashing because people don't know that extension changed and
+            the number of help desk problems was (and continue) huge! So why not handle sheets
+            as an easy way to programmer? The better approach is using sheets, because a
+            CSV sheet can be handled exactly equal to XLS or XLSX or ODS sheet. The main
+            difference is style (programmers hate sheet styles, but users love), but programmers
+            love simple data, not styles, colors, etc. By now &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;
+            can easily open CSV, XLS, XLSX files and convert between them. With &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;
+            you can open even physical files or memory files and convert between them too!
+        &lt;/p&gt;
+        &lt;p&gt;
+            The only thing that users and programmers agree is that files are easier handled
+            with a header. So, if:
+
+            &lt;pre&gt;
+                Name, Date, Number
+
+                Diogo, 1989-08-12, 7
+
+                Vivi, 1990-05-31, 27
+            &lt;/pre&gt;
+            Users and programmers feel happy. If a file have a header you can handle this file with
+            &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;!
+        &lt;/p&gt;
+        &lt;h3&gt;
+            Why are you waiting?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Go and use &lt;a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile"&gt;PyHeaderFile&lt;/a&gt;. You can
+            collaborate with the project in &lt;a target="_blank" href="https://github.com/kappius/pyheaderfile"&gt;GitGub&lt;/a&gt;.
+            I hope you enjoy!
+        &lt;/p&gt;
+    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 09 Jan 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-01-09:using-pyheaderfile-to-handle-spreadsheets.html</guid><category>xls</category><category>xlsx</category><category>csv</category><category>excel</category><category>libreoffice</category><category>python</category><category>module</category><category>stylesheet</category></item></channel></rss>

@@ -1,3 +1,6 @@
 [submodule "src/crowsfoot"]
 	path = src/crowsfoot
 	url = https://github.com/dmvieira/crowsfoot.git
+[submodule "src/plugins"]
+	path = src/plugins
+	url = https://github.com/getpelican/pelican-plugins.git

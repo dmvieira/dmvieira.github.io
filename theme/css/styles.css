@@ -168,7 +168,7 @@ sub {
 /* Paragraphs. */
 
 .article p {
-    line-height: 1.3em;
+    line-height: 1.8em;
     margin-bottom: 1.5em;
 }
 
@@ -202,6 +202,7 @@ sub {
     margin: 0 auto 0 auto;
     max-width: 600px;
     height: auto;
+    padding-bottom: 30px;
 }
 
 /* Blockquotes */
