@@ -5,48 +5,48 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://diogomunaro.com/</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/archives.html</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/tags.html</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/categories.html</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/about.html</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/contact.html</loc>
-<lastmod>2015-01-15T22:07:51-00:00</lastmod>
+<lastmod>2015-01-15T22:26:47-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://diogomunaro.com/using-pelican-github-parse-and-sendgrid-to-make-your-free-website.html</loc>
+<loc>http://diogomunaro.com/using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</loc>
 <lastmod>2015-01-23T17:27:00-02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -144,14 +144,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://diogomunaro.com/tag/csv.html</loc>
-<lastmod>2015-01-09T17:27:00-03:06</lastmod>
+<loc>http://diogomunaro.com/tag/disqus.html</loc>
+<lastmod>2015-01-23T17:27:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/tag/xls.html</loc>
+<lastmod>2015-01-09T17:27:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://diogomunaro.com/tag/csv.html</loc>
 <lastmod>2015-01-09T17:27:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
