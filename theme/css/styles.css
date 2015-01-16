@@ -241,6 +241,21 @@ sub {
     font-size: 1em;
 }
 
+/* Contact form */
+
+#contact-form {
+    margin: 0 auto;
+    width: 30%;
+}
+
+#contact-form input, textarea {
+    margin-top: 10px;
+}
+
+#contact-form .row {
+    margin-top: 10px;
+}
+
 /* Footer at page bottom */
 
 footer {
@@ -250,5 +265,5 @@ footer {
     height: 30px;
     position: absolute;
     text-align: center;
-    width: 60%;
+    width: 65%;
 }

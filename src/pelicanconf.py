@@ -1,8 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import datetime
 
 AUTHOR = u'Diogo Munaro Vieira'
+LICENSE_NAME = 'Apache 2.0'
+LICENSE_URL = 'http://www.apache.org/licenses/LICENSE-2.0'
+STARTYEAR = '2014'
+YEAR = datetime.date.today().year
 SITENAME = u'Diogo Munaro Vieira'
 SITESUBTITLE = u'Because Programming is Cool and IT needs simplicity'
 SITEURL = 'http://diogomunaro.com'
