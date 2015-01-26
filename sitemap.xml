@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://diogomunaro.com/</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/archives.html</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/tags.html</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/categories.html</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/about.html</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://diogomunaro.com/contact.html</loc>
-<lastmod>2015-01-19T21:07:27-00:00</lastmod>
+<lastmod>2015-01-26T20:28:32-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -117,6 +117,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://diogomunaro.com/tag/free.html</loc>
+<lastmod>2015-01-23T17:27:00-03:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://diogomunaro.com/tag/parse.html</loc>
 <lastmod>2015-01-23T17:27:00-03:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
