@@ -1,9 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-02-06T17:27:00-02:00</updated><entry><title>Changing dynamically Pentaho reports database using Python script</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-database-using-python-script.html" rel="alternate"></link><updated>2015-02-06T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-06:changing-dynamically-pentaho-reports-database-using-python-script.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-02-20T17:27:00-02:00</updated><entry><title>Changing dynamically Pentaho reports database using Python script</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-database-using-python-script.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-database-using-python-script.html</id><summary type="html">
         &lt;p&gt;
             Please, wait release date ^^
         &lt;/p&gt;
-    </summary><category term="pentaho"></category><category term="python"></category><category term="java"></category><category term="databases"></category><category term="report design"></category><category term="pdi"></category></entry><entry><title>Using Pelican, Github, Parse, Sendgrid and Disqus to make your free website.</title><link href="http://diogomunaro.com/using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html" rel="alternate"></link><updated>2015-01-23T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-01-23:using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</id><summary type="html">
+    </summary><category term="pentaho"></category><category term="python"></category><category term="java"></category><category term="databases"></category><category term="report design"></category><category term="pdi"></category></entry><entry><title>Programmers, please know how to read and write</title><link href="http://diogomunaro.com/programmers-please-know-how-to-read-and-write.html" rel="alternate"></link><updated>2015-02-06T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-06:programmers-please-know-how-to-read-and-write.html</id><summary type="html">
+        &lt;h3&gt;
+            Programmers reading and writing instead of coding?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Yeah guys, we need to know how to write! I'm Brazilian, and I listen from some of
+            friends of mine:
+
+        &lt;/p&gt;
+        &lt;blockquote&gt;
+            Wow, I'm a programmer! I do some code and I don't need
+            to know how to write in portuguese!
+        &lt;/blockquote&gt;
+        &lt;p&gt;
+            Ok, let's imagine that you're coding for a brazilian company and you need to comment
+            some code for your colleagues. Or even if you need to write an email to your manager.
+            I don't know what your manager will think about it, but it's a fair skill for your
+            promotion...
+        &lt;/p&gt;
+        &lt;p&gt;
+            If that guy don't mind about writing in portuguese, imagine in english! If you want a
+            better job or submit a paper for scientific area with your results or new implementation
+            you must write in english!
+        &lt;/p&gt;
+        &lt;h3&gt;
+            I understood about a better job, but write a paper?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Everyone can write a paper with innovations for scientific community. But I think
+            this is not the question here... Programmers can do fantastic things because they
+            know how to make ideas come true with coding!
+        &lt;/p&gt;
+        &lt;p&gt;
+            If you think that you have a good idea look inside &lt;a target="_blank" href="https://scholar.google.com"&gt;Google Scholar&lt;/a&gt;
+            if someone made this idea yet. If not go and build! There are a lot of conferences that you
+            can submit your paper. You will get a lot of pride and recognition in community.
+        &lt;/p&gt;
+        &lt;h3&gt;
+            And read? For what?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            The more you read, the more you write better... Simple as that... But please, read good references!
+            Facebook and Twitter sometimes have a lot of errors and typos, so be careful and use
+            &lt;a target="_blank" href="https://scholar.google.com"&gt;Google Scholar&lt;/a&gt; as much as you can.
+        &lt;/p&gt;
+        &lt;h3&gt;
+            My own story...
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Nowadays I submitted a paper to &lt;a target="_blank" href="http://icc2015.ieee-icc.org/"&gt;IEEE ICC&lt;/a&gt;
+            (International Conference On Communications) that is a great conference in the Great Britain!
+            My paper is "Content Recommendation and Service Costs in Swarming Systems" that I did in MSc about
+            how Recommendation Systems can improve QoE (Quality of Experience) in VoD (Video over Demand) and live
+            streaming over P2P (peer-to-peer) scenarios.
+        &lt;/p&gt;
+        &lt;p&gt;
+            This conference want to make word smarter and my paper try to make content delivery smarter, so it's
+            matching! When you search for a conference or a journal to submit your paper, before get in mind if
+            your work is good for that conference. If it matches don't be afraid! Go and submit it!!
+        &lt;/p&gt;
+    </summary><category term="programmer"></category><category term="icc"></category><category term="ieee"></category><category term="write"></category><category term="paper"></category></entry><entry><title>Using Pelican, Github, Parse, Sendgrid and Disqus to make your free website.</title><link href="http://diogomunaro.com/using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html" rel="alternate"></link><updated>2015-01-23T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-01-23:using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</id><summary type="html">
         &lt;h3&gt;
             What?? My free website?
         &lt;/h3&gt;
