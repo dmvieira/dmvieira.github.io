@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-02-20T17:27:00-02:00</updated><entry><title>Changing dynamically Pentaho reports database using Python script</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-database-using-python-script.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-database-using-python-script.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-02-20T17:27:00-02:00</updated><entry><title>Changing dynamically Pentaho reports, transformations and jobs databases using Python</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</id><summary type="html">
+        &lt;h3&gt;
+            &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt;, the best BI (business intelligence) tool
+        &lt;/h3&gt;
         &lt;p&gt;
-            Please, wait release date ^^
+            &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; is a great open source drag and drop tool for
+            automated process but include some repeated jobs when you're
+            creating these automated processes.
+        &lt;/p&gt;
+        &lt;p&gt;
+            It enables you to create tasks called transformations and group these tasks in jobs with a tool
+            called PDI (Pentaho Data Integration).
+            In addition, you can use a tool called Report Designer to make some reports based in data sources.
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; is really beautiful and help too much some tasks
+            and ETL (extract, transform and load) processes, but
+            when you need to change database for these transformations, jobs and reports is really difficult! You must open
+            each of them and change database by hand! As follows:
+        &lt;/p&gt;
+        &lt;img alt="Pentaho Change Database" src="/images/pentaho_database.jpg" /&gt;
+        &lt;p&gt;
+            Now, lets imagine change by hand connections for each &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; Job like this:
+        &lt;/p&gt;
+        &lt;img alt="Pentaho Job" src="/images/pentaho_jobs.png" /&gt;
+        &lt;p&gt;
+            With a lot of transformations like this:
+        &lt;/p&gt;
+        &lt;img alt="Pentaho Transformations" src="/images/pentaho_transformations.png" /&gt;
+        &lt;h3&gt;
+            Avoiding 'Click and Change' &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; repeated jobs
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Programmers (and I think all people) hate repeated jobs (or should hate). These jobs are really boring
+            and nobody should do these things. Automated processes improve company performance and enrich your
+            employees skills.
+        &lt;/p&gt;
+        &lt;p&gt;
+            Not only companies need automated process. Smart houses, cars and cities are here to make sure that
+            people don't need to do some repeated tasks like turn off lights or detect cars crashes.
+        &lt;/p&gt;
+        &lt;p&gt;
+            For smart things are getting up and company process we have some tools as
+            &lt;a target="_blank" href="http://www.bonitasoft.com/"&gt;BonitaBPM&lt;/a&gt; for organize processes and
+            &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; for automate them, but how help
+            programmers to automate processes with &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt;?
+        &lt;/p&gt;
+        &lt;p&gt;
+            To take care of this, &lt;a target="_blank" href="https://github.com/kappius/"&gt;Kappius Company Team&lt;/a&gt; did
+            &lt;a target="_blank" href="https://github.com/kappius/pentaho-db-changer"&gt;Pentaho DB Changer&lt;/a&gt; that can
+            change dynamically database connections for transformations, jobs and reports from &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            With &lt;a target="_blank" href="https://github.com/kappius/pentaho-db-changer"&gt;Pentaho DB Changer&lt;/a&gt; you can change
+            XML files with extensions: .ktr (transformations), .kjb (jobs) and .xml (reports), but for reports you need to unzip
+            .prpt file and change datasources\sql-ds.xml file. Here is sections that XML file should have:
+        &lt;/p&gt;
+        &lt;img alt="KTR example file" src="/images/ktr_pentaho.png" /&gt;
+        &lt;p&gt;
+            For further &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt; code
+            changes, &lt;a target="_blank" href="https://github.com/kappius/pentaho-db-changer"&gt;Pentaho DB Changer&lt;/a&gt; can be used as
+            a Python module instead of just executed.
         &lt;/p&gt;
     </summary><category term="pentaho"></category><category term="python"></category><category term="java"></category><category term="databases"></category><category term="report design"></category><category term="pdi"></category></entry><entry><title>Programmers, please know how to read and write</title><link href="http://diogomunaro.com/programmers-please-know-how-to-read-and-write.html" rel="alternate"></link><updated>2015-02-06T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-06:programmers-please-know-how-to-read-and-write.html</id><summary type="html">
         &lt;h3&gt;

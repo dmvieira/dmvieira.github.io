@@ -1,0 +1,74 @@
+<html lang="{{ DEFAULT_LANG }}">
+    <head>
+        <title>Changing dynamically Pentaho reports, transformations and jobs databases using Python</title>
+        <meta name="tags" content="pentaho, python, java, databases, report design, pdi" />
+        <meta name="date" content="2015-02-20 17:27" />
+        <meta name="category" content="projects" />
+        <meta name="authors" content="Diogo Munaro" />
+        <meta name="summary" content="Take care of Pentaho clone reports, transformations and jobs for a lot of databases is so difficult, here I will show a trick to change database 'on the fly' instead of manually change database using Pentaho." />
+    </head>
+    <body>
+        <h3>
+            <a target="_blank" href="http://www.pentaho.com/">Pentaho</a>, the best BI (business intelligence) tool
+        </h3>
+        <p>
+            <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> is a great open source drag and drop tool for
+            automated process but include some repeated jobs when you're
+            creating these automated processes.
+        </p>
+        <p>
+            It enables you to create tasks called transformations and group these tasks in jobs with a tool
+            called PDI (Pentaho Data Integration).
+            In addition, you can use a tool called Report Designer to make some reports based in data sources.
+        </p>
+        <p>
+            <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> is really beautiful and help too much some tasks
+            and ETL (extract, transform and load) processes, but
+            when you need to change database for these transformations, jobs and reports is really difficult! You must open
+            each of them and change database by hand! As follows:
+        </p>
+        <img alt="Pentaho Change Database" src="/images/pentaho_database.jpg" />
+        <p>
+            Now, lets imagine change by hand connections for each <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> Job like this:
+        </p>
+        <img alt="Pentaho Job" src="/images/pentaho_jobs.png" />
+        <p>
+            With a lot of transformations like this:
+        </p>
+        <img alt="Pentaho Transformations" src="/images/pentaho_transformations.png" />
+        <h3>
+            Avoiding 'Click and Change' <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> repeated jobs
+        </h3>
+        <p>
+            Programmers (and I think all people) hate repeated jobs (or should hate). These jobs are really boring
+            and nobody should do these things. Automated processes improve company performance and enrich your
+            employees skills.
+        </p>
+        <p>
+            Not only companies need automated process. Smart houses, cars and cities are here to make sure that
+            people don't need to do some repeated tasks like turn off lights or detect cars crashes.
+        </p>
+        <p>
+            For smart things are getting up and company process we have some tools as
+            <a target="_blank" href="http://www.bonitasoft.com/">BonitaBPM</a> for organize processes and
+            <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> for automate them, but how help
+            programmers to automate processes with <a target="_blank" href="http://www.pentaho.com/">Pentaho</a>?
+        </p>
+        <p>
+            To take care of this, <a target="_blank" href="https://github.com/kappius/">Kappius Company Team</a> did
+            <a target="_blank" href="https://github.com/kappius/pentaho-db-changer">Pentaho DB Changer</a> that can
+            change dynamically database connections for transformations, jobs and reports from <a target="_blank" href="http://www.pentaho.com/">Pentaho</a>.
+        </p>
+        <p>
+            With <a target="_blank" href="https://github.com/kappius/pentaho-db-changer">Pentaho DB Changer</a> you can change
+            XML files with extensions: .ktr (transformations), .kjb (jobs) and .xml (reports), but for reports you need to unzip
+            .prpt file and change datasources\sql-ds.xml file. Here is sections that XML file should have:
+        </p>
+        <img alt="KTR example file" src="/images/ktr_pentaho.png" />
+        <p>
+            For further <a target="_blank" href="http://www.pentaho.com/">Pentaho</a> code
+            changes, <a target="_blank" href="https://github.com/kappius/pentaho-db-changer">Pentaho DB Changer</a> can be used as
+            a Python module instead of just executed.
+        </p>
+    </body>
+</html>
