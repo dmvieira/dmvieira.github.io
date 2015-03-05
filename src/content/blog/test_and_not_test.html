@@ -1,0 +1,98 @@
+<html lang="{{ DEFAULT_LANG }}">
+    <head>
+        <title>MVP (minimal viable product) for tests or tests for MVPs</title>
+        <meta name="tags" content="test, python, unit test, integration test, interface test, system test, differential test, stress test, random test, mvp, startup, tdd" />
+        <meta name="date" content="2015-03-06 17:27" />
+        <meta name="category" content="tests" />
+        <meta name="authors" content="Diogo Munaro" />
+        <meta name="summary" content="Software testing is a really important step, but sometimes this is not so good... In my opinion, tests are great if you're not testing your product like MVP." />
+    </head>
+    <body>
+        <h3>
+            What's MVP?
+        </h3>
+        <p>
+            MVP definition is <i>Minimal Viable Product</i> and it's basically a simple way to test your new product
+            without really make this product. You can read more about StartUps and MVPs in my post at
+            <a href="https://startupcortex.wordpress.com/2014/11/23/mvp-mind-in-consumer-society/" target="_blank">STARTUP CORTEX</a>.
+        </p>
+        <p>
+            MVPs are common in StartUps, because they are testing something new, but it's applicable for
+            big companies too when they are trying to launch a new feature or improve UX (user experience) for a
+            product. Here is a video that shows it better:
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FvGJDKdI2GI" frameborder="0" allowfullscreen></iframe>
+        <br>
+        <br>
+        <h3>
+            MVP for tests. The simple way to test your idea.
+        </h3>
+        <p>
+            Let you as an entrepreneurship in your StartUp and you really don't know if your product will
+            be accepted or people will like it. So, you can do your MVP (a simple web page or a YouTube
+            video, etc). Doing it, you can receive feedbacks and improve your MVP. This is the point...
+            Improve your MVP...
+        </p>
+        <p>
+            Now you just have a simple system that users can use basic functions and you want to know
+            if users are liking and if they aren't getting in trouble with some feature. With these feedbacks
+            your system is growing... But when should I test my MVP?
+        </p>
+        <h3>
+            Tests for MVP. Make your judgment...
+        </h3>
+        <p>
+            Here the question should be: "When is it not a MVP yet?". You need to realize when your software
+            is with enough features that need test, and if these features will be permanent or are just testing
+            features that users should never use.
+        </p>
+        <p>
+            More conservative programmers will hate me for that opinion, but when you are innovating, as much
+            time you spend with bad ideas as much you lost time with new great ideas, because every new idea will fail,
+            at least in one feature. Make your choice! It can determine a lot of things...
+        </p>
+        <img alt="success and fail" src="/images/suc_fail.jpg" />
+        <h3>
+            I'm not a MVP yet! Help me to test!!
+        </h3>
+        <p>
+            Congrats! Your idea, and you software now are growing and you really need tests. Now you should
+            decide better tests for your software and perhaps use TDD (Test Driven Development). Here is a list of popular test types and a summarized
+            description:
+        <ul>
+            <li>
+                <strong>Unit Tests:</strong> Test each fragment of your code. E.g.: test each function individually.
+            </li>
+            <li>
+                <strong>Integration Tests:</strong> Test integration between parts of your code. E.g.: if a module works with another.
+            </li>
+            <li>
+                <strong>System Tests:</strong> Test your entire code usability. E.g.: if your entire new feature works as expected.
+            </li>
+            <li>
+                <strong>Interface Tests:</strong> Test your user interface. E.g.: if your interface isn't with bugs to user.
+            </li>
+            <li>
+                <strong>Differential Tests:</strong> Test if a feature is better than older version of this feature. E.g.: if a feature is faster then older.
+            </li>
+            <li>
+                <strong>Stress Tests:</strong> Test if part or all code is stable. E.g.: how many requests a server support.
+            </li>
+            <li>
+                <strong>Random Tests:</strong> Test with random inputs part of the code. E.g.: try a lot of random inputs in a function.
+            </li>
+        </ul>
+        <p>
+            Python have some libraries that help with these tests:
+            <a href="https://pypi.python.org/pypi/unittest2" target="_blank">unittest2</a>,
+            <a href="https://pypi.python.org/pypi/nose" target="_blank">nose</a>,
+            <a href="https://pypi.python.org/pypi/pytest" target="_blank">pytest</a>. With then you can apply these
+            tests and later can use
+            <a href="https://pypi.python.org/pypi/coverage" target="_blank">coverage</a> to determine how many of your code is already tested.
+        </p>
+        <p>
+            There are a lot of coverage types, and you can learn more about tests and coverage in this amazing
+            <a href="https://www.udacity.com/course/cs258" target="_blank">Free Course</a>.
+        </p>
+    </body>
+</html>

@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-02-20T17:27:00-02:00</updated><entry><title>Changing dynamically Pentaho report's, transformation's and job's databases using Python</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2015-03-06T17:27:00-03:00</updated><entry><title>MVP (minimal viable product) for tests or tests for MVPs</title><link href="http://diogomunaro.com/mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html" rel="alternate"></link><updated>2015-03-06T17:27:00-03:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-03-06:mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html</id><summary type="html">
+        &lt;h3&gt;
+            What's MVP?
+        &lt;/h3&gt;
+        &lt;p&gt;
+            MVP definition is &lt;i&gt;Minimal Viable Product&lt;/i&gt; and it's basically a simple way to test your new product
+            without really make this product. You can read more about StartUps and MVPs in my post at
+            &lt;a href="https://startupcortex.wordpress.com/2014/11/23/mvp-mind-in-consumer-society/" target="_blank"&gt;STARTUP CORTEX&lt;/a&gt;.
+        &lt;/p&gt;
+        &lt;p&gt;
+            MVPs are common in StartUps, because they are testing something new, but it's applicable for
+            big companies too when they are trying to launch a new feature or improve UX (user experience) for a
+            product. Here is a video that shows it better:
+        &lt;/p&gt;
+        &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/FvGJDKdI2GI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;br&gt;
+        &lt;br&gt;
+        &lt;h3&gt;
+            MVP for tests. The simple way to test your idea.
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Let you as an entrepreneurship in your StartUp and you really don't know if your product will
+            be accepted or people will like it. So, you can do your MVP (a simple web page or a YouTube
+            video, etc). Doing it, you can receive feedbacks and improve your MVP. This is the point...
+            Improve your MVP...
+        &lt;/p&gt;
+        &lt;p&gt;
+            Now you just have a simple system that users can use basic functions and you want to know
+            if users are liking and if they aren't getting in trouble with some feature. With these feedbacks
+            your system is growing... But when should I test my MVP?
+        &lt;/p&gt;
+        &lt;h3&gt;
+            Tests for MVP. Make your judgment...
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Here the question should be: "When is it not a MVP yet?". You need to realize when your software
+            is with enough features that need test, and if these features will be permanent or are just testing
+            features that users should never use.
+        &lt;/p&gt;
+        &lt;p&gt;
+            More conservative programmers will hate me for that opinion, but when you are innovating, as much
+            time you spend with bad ideas as much you lost time with new great ideas, because every new idea will fail,
+            at least in one feature. Make your choice! It can determine a lot of things...
+        &lt;/p&gt;
+        &lt;img alt="success and fail" src="/images/suc_fail.jpg" /&gt;
+        &lt;h3&gt;
+            I'm not a MVP yet! Help me to test!!
+        &lt;/h3&gt;
+        &lt;p&gt;
+            Congrats! Your idea, and you software now are growing and you really need tests. Now you should
+            decide better tests for your software and perhaps use TDD (Test Driven Development). Here is a list of popular test types and a summarized
+            description:
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Unit Tests:&lt;/strong&gt; Test each fragment of your code. E.g.: test each function individually.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Integration Tests:&lt;/strong&gt; Test integration between parts of your code. E.g.: if a module works with another.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;System Tests:&lt;/strong&gt; Test your entire code usability. E.g.: if your entire new feature works as expected.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Interface Tests:&lt;/strong&gt; Test your user interface. E.g.: if your interface isn't with bugs to user.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Differential Tests:&lt;/strong&gt; Test if a feature is better than older version of this feature. E.g.: if a feature is faster then older.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Stress Tests:&lt;/strong&gt; Test if part or all code is stable. E.g.: how many requests a server support.
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;strong&gt;Random Tests:&lt;/strong&gt; Test with random inputs part of the code. E.g.: try a lot of random inputs in a function.
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;
+            Python have some libraries that help with these tests:
+            &lt;a href="https://pypi.python.org/pypi/unittest2" target="_blank"&gt;unittest2&lt;/a&gt;,
+            &lt;a href="https://pypi.python.org/pypi/nose" target="_blank"&gt;nose&lt;/a&gt;,
+            &lt;a href="https://pypi.python.org/pypi/pytest" target="_blank"&gt;pytest&lt;/a&gt;. With then you can apply these
+            tests and later can use
+            &lt;a href="https://pypi.python.org/pypi/coverage" target="_blank"&gt;coverage&lt;/a&gt; to determine how many of your code is already tested.
+        &lt;/p&gt;
+        &lt;p&gt;
+            There are a lot of coverage types, and you can learn more about tests and coverage in this amazing
+            &lt;a href="https://www.udacity.com/course/cs258" target="_blank"&gt;Free Course&lt;/a&gt;.
+        &lt;/p&gt;
+    </summary><category term="test"></category><category term="python"></category><category term="unit test"></category><category term="integration test"></category><category term="interface test"></category><category term="system test"></category><category term="differential test"></category><category term="stress test"></category><category term="random test"></category><category term="mvp"></category><category term="startup"></category><category term="tdd"></category></entry><entry><title>Changing dynamically Pentaho report's, transformation's and job's databases using Python</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</id><summary type="html">
         &lt;h3&gt;
             &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt;, the best BI (business intelligence) tool
         &lt;/h3&gt;
