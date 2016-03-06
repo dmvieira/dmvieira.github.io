@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-      <title>Using PyHeaderFile to handle sheets - Diogo Munaro Vieira</title>
+      <title>MVP mind in consumer society - Diogo Munaro Vieira</title>
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
       <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
@@ -61,98 +61,82 @@
 <section class="content">
 
   <h3 class="posttitle">
-    <a class="nodec" href="/using-pyheaderfile-to-handle-sheets.html" rel="bookmark" title="Permalink to Using PyHeaderFile to handle sheets">
-      Using PyHeaderFile to handle sheets
+    <a class="nodec" href="/mvp-mind-in-consumer-society.html" rel="bookmark" title="Permalink to MVP mind in consumer society">
+      MVP mind in consumer society
     </a>
   </h3>
 
   <div class="postinfo">
-    <p class="published" title="2015-01-09T17:27:00-02:00">
-      Fri 09 January 2015
+    <p class="published" title="2016-03-06T14:27:00-03:00">
+      Sun 06 March 2016
     </p>
 
   </div><!-- .postinfo -->
 
   <div class="article">
     
-        <h3>
-            Why working with Spreadsheets?
-        </h3>
-        <p>
-            Spreadsheets are a 'proxy' between users and developers. With them,
-            users can input data and organize things then send as input to
-            systems, while programmers can handle these sheets and import or
-            export from database for users.
-        </p>
-        <p>
-            Some good ways for users to handle spreadsheets are using Excel,
-            Libreoffice, Google Drive and others. For the user is really simple
-            to open a lot of formats and different extensions because these
-            programs already do all hard work, but nobody take care of programmers
-            (specially Python programmers)...
-            We need to use a lot of difficult modules and find a way to read every
-            strange spreadsheet format.
-        </p>
-        <h3>
-            Why Python programmers can relax right now.
-        </h3>
-        <p>
-            Yes, now Python community earned a module called
-            <a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile">PyHeaderFile</a>!
-            PyHeaderFile is an interface to handle sheets. No, not spreadsheets, but only
-            sheets. Example of libreoffice sheet:
-        </p>
+      <img src="/images/consumer-society.gif" alt="consumer" width="300" />
 
-            <img alt="libreoffice sheet" src="/images/sheet.png" />
-        <h3>
-            But why Sheets?
-        </h3>
-        <p>
-            Sheets are beautiful! Spreadsheets are ugly... Spreadsheets add a lot of complexity
-            when we handle it using <a target="_blank" href="https://pypi.python.org/pypi/xlrd">Xlrd</a>,
-            <a target="_blank" href="https://pypi.python.org/pypi/xlwt">Xlwt</a>,
-            <a target="_blank" href="https://pypi.python.org/pypi/openpyxl">Openpyxl</a>,
-            <a href="http://pandas.pydata.org/">Pandas</a> or even Python CSV (comma separated values)
-            default module, but users usually use something different from commas to separate information in
-            what I like to call as GWSV (guess what separated values).
-            So you need to tell user: "send me in that format or I will kill you!"...
-        </p>
-        <p>
-            I remember when Microsoft changed default format from XLS to XLSX. The number of
-            systems crashing because people don't know that extension and
-            the number of help desk problems was (and continue) huge! So why not handle sheets
-            as an easy way to programmer? The better approach is using sheets, because a
-            CSV sheet can be handled exactly equal to XLS or XLSX or ODS sheet.
+      <p>
+        It's so difficult to resist for consumer temptations... I'm not a consumer guy,
+        but capitalist society and its 'consumer guide' show you a lot of possibilities
+        and you always need more and more useless stuff.
+      </p>
+      <p>
+        Now let me think about entrepreneurship... When you start your business people say:
+      </p>
+      <p>
+        <blockquote>- Go and make your Minimum Viable Product (MVP)</blockquote>
+      </p>
+      <p>
+        Yes, we know that! But what is that "M"? What is really the minimum? I can see some
+        people that can't see that minimum... And when we talk about real minimum they say:
+      </p>
+      <p>
+        <blockquote>- Oh! But my clients will not like it</blockquote>
+        <blockquote>- It's a very bad product... Nobody want it</blockquote>
+      </p>
+      <p>
+        So, your clients have a problem that your product should solve.
+        They will have the same problem until a good solver appear.
+        How do you know if your solver is really the best? It needs to be tested
+        step by step giving just the essential part for each test. But it is
+        soooo difficult to get this essential part. It's not people fault!
+        Our society teaches them to always get more and more!! Just remember: Less is more!
+      </p>
 
-        </p>
-        <p>
-            The main difference between sheets is style (programmers hate sheet styles, but users love), but programmers
-            love simple data, not styles, colors, etc. By now <a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile">PyHeaderFile</a>
-            can easily open CSV, XLS, XLSX files and convert between them (only data, no styles!). With <a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile">PyHeaderFile</a>
-            you can open even physical files or memory files and convert between them too!
-        </p>
-        <p>
-            The only thing that users and programmers agree is that files are easier handled
-            with a header. So, if:
+      <img src="/images/keep-calm-because-less-is-more-2.png" alt="keep calm because less is more" width="285" height="300" />
+      </p>
+      <p>
+        I did a trick, I think in my MVPs as choosing clothes for go out. How many clothes I really need to go a party?
+        We will make clothes to go that party? Of course not! We have a lot of them inside our wardrobe...
+        That's it! We don't need to create a new thing to test our product...
+        Our MVP don't need thousands of features just to prove we are right, as well as we don't need a
+        lot of stuffs to be happy.
+      </p>
 
-            <pre>
-                Name, Date, Number
-
-                Diogo, 1989-08-12, 7
-
-                Vivi, 1990-05-31, 27
-            </pre>
-            Users and programmers feel happy. If a file have a header you can handle this file with
-            <a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile">PyHeaderFile</a>!
-        </p>
-        <h3>
-            Why are you waiting?
-        </h3>
-        <p>
-            Go and use <a target="_blank" href="https://pypi.python.org/pypi/pyheaderfile">PyHeaderFile</a>. You can
-            collaborate with the project in <a target="_blank" href="https://github.com/kappius/pyheaderfile">GitHub</a>.
-            I hope you enjoy!
-        </p>
+      <img src="/images/bstn325l.jpg" alt="why a lot?" width="283" height="300" />
+      <p>
+        Now going to "V" of MVP, let's think what's really valuable.
+        People buy things all the time! Again we can see how hard is determine what is really valuable.
+        Some guys still think that your cars, watches and boats are more important than family, honor and respect.
+        It is strong for these guys to understand what is really valuable to them, even for their customers!
+      </p>
+      <p>
+        Human values are changed in some guys and it is very hard to make them understand the real product
+        ("P") that customers need. The best MVPs don't need new inventions, just creativity
+        (<a title="Examples" href="http://www.hackerchick.com/2013/02/5-mvp-examples.html" target="_blank">Here</a> some good examples).
+        Actually, for every new feature you should test it with some new MVPs and make your product with their results.
+        It is applicable to consumer society too... You don't need all that products!
+        Before buy them, try to test and think if you really want that products.
+      </p>
+      <img src="/images/mvp.jpg" alt="mvp flow" width="296" height="174" />
+      <p>
+        Now let's think a bit more how our education and attitudes in society impact our carrier.
+        Sometimes we forget that the society act directly in our lifes and how our lifestyle can
+        simplify or complicate entrepreneurship carrier. It is not about the money (Jessie J.),
+        it's about to make the word a better place. If we think like this, we are on the right path.
+      </p>
     
   </div><!-- .content -->
 
