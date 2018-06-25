@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diogo Munaro Vieira</title><link>http://diogomunaro.com/</link><description>Tecnologia é para todos</description><atom:link href="http://diogomunaro.com/feeds/diogo-munaro.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 06 Mar 2016 14:27:00 -0300</lastBuildDate><item><title>MVP mind in consumer society</title><link>http://diogomunaro.com/mvp-mind-in-consumer-society.html</link><description>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Diogo Munaro Vieira</title><link href="http://diogomunaro.com/" rel="alternate"></link><link href="http://diogomunaro.com/feeds/all-pt_br.atom.xml" rel="self"></link><id>http://diogomunaro.com/</id><updated>2016-03-06T14:27:00-03:00</updated><entry><title>MVP mind in consumer society</title><link href="http://diogomunaro.com/mvp-mind-in-consumer-society.html" rel="alternate"></link><updated>2016-03-06T14:27:00-03:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2016-03-06:mvp-mind-in-consumer-society.html</id><summary type="html">
       &lt;img src="/images/consumer-society.gif" alt="consumer" width="300" /&gt;
 
       &lt;p&gt;
@@ -62,7 +62,7 @@
         simplify or complicate entrepreneurship carrier. It is not about the money (Jessie J.),
         it's about to make the word a better place. If we think like this, we are on the right path.
       &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Sun, 06 Mar 2016 14:27:00 -0300</pubDate><guid>tag:diogomunaro.com,2016-03-06:mvp-mind-in-consumer-society.html</guid><category>mvp</category><category>consumer</category><category>entrepreneurship</category><category>startup</category></item><item><title>MVP (minimal viable product) for tests or tests for MVPs</title><link>http://diogomunaro.com/mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html</link><description>
+    </summary><category term="mvp"></category><category term="consumer"></category><category term="entrepreneurship"></category><category term="startup"></category></entry><entry><title>MVP (minimal viable product) for tests or tests for MVPs</title><link href="http://diogomunaro.com/mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html" rel="alternate"></link><updated>2015-03-06T17:27:00-03:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-03-06:mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html</id><summary type="html">
         &lt;h3&gt;
             What's MVP?
         &lt;/h3&gt;
@@ -149,7 +149,7 @@
             There are a lot of coverage types, and you can learn more about tests and coverage in this amazing
             &lt;a href="https://www.udacity.com/course/cs258" target="_blank"&gt;Free Course&lt;/a&gt;.
         &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 06 Mar 2015 17:27:00 -0300</pubDate><guid>tag:diogomunaro.com,2015-03-06:mvp-minimal-viable-product-for-tests-or-tests-for-mvps.html</guid><category>test</category><category>python</category><category>unit test</category><category>integration test</category><category>interface test</category><category>system test</category><category>differential test</category><category>stress test</category><category>random test</category><category>mvp</category><category>startup</category><category>tdd</category></item><item><title>Changing dynamically Pentaho report's, transformation's and job's databases using Python</title><link>http://diogomunaro.com/changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</link><description>
+    </summary><category term="test"></category><category term="python"></category><category term="unit test"></category><category term="integration test"></category><category term="interface test"></category><category term="system test"></category><category term="differential test"></category><category term="stress test"></category><category term="random test"></category><category term="mvp"></category><category term="startup"></category><category term="tdd"></category></entry><entry><title>Changing dynamically Pentaho report's, transformation's and job's databases using Python</title><link href="http://diogomunaro.com/changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html" rel="alternate"></link><updated>2015-02-20T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</id><summary type="html">
         &lt;h3&gt;
             &lt;a target="_blank" href="http://www.pentaho.com/"&gt;Pentaho&lt;/a&gt;, the best BI (business intelligence) tool
         &lt;/h3&gt;
@@ -215,7 +215,7 @@
             we designed &lt;a target="_blank" href="https://github.com/kappius/pentaho-db-changer"&gt;Pentaho DB Changer&lt;/a&gt;
             with a decoupled approach that can be used as a Python module instead of just executed.
         &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 20 Feb 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-02-20:changing-dynamically-pentaho-reports-transformations-and-jobs-databases-using-python.html</guid><category>pentaho</category><category>python</category><category>java</category><category>databases</category><category>report design</category><category>pdi</category></item><item><title>Programmers, please know how to read and write</title><link>http://diogomunaro.com/programmers-please-know-how-to-read-and-write.html</link><description>
+    </summary><category term="pentaho"></category><category term="python"></category><category term="java"></category><category term="databases"></category><category term="report design"></category><category term="pdi"></category></entry><entry><title>Programmers, please know how to read and write</title><link href="http://diogomunaro.com/programmers-please-know-how-to-read-and-write.html" rel="alternate"></link><updated>2015-02-06T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-02-06:programmers-please-know-how-to-read-and-write.html</id><summary type="html">
         &lt;h3&gt;
             Programmers reading and writing instead of coding?
         &lt;/h3&gt;
@@ -275,7 +275,7 @@
             matching! When you search for a conference or a journal to submit your paper, before get in mind if
             your work is good for that conference. If it matches don't be afraid! Go and submit it!!
         &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 06 Feb 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-02-06:programmers-please-know-how-to-read-and-write.html</guid><category>programmer</category><category>icc</category><category>ieee</category><category>write</category><category>paper</category></item><item><title>Using Pelican, Github, Parse, Sendgrid and Disqus to make your free website.</title><link>http://diogomunaro.com/using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</link><description>
+    </summary><category term="programmer"></category><category term="icc"></category><category term="ieee"></category><category term="write"></category><category term="paper"></category></entry><entry><title>Using Pelican, Github, Parse, Sendgrid and Disqus to make your free website.</title><link href="http://diogomunaro.com/using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html" rel="alternate"></link><updated>2015-01-23T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-01-23:using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</id><summary type="html">
         &lt;h3&gt;
             What?? My free website?
         &lt;/h3&gt;
@@ -419,7 +419,7 @@
         &lt;p&gt;
             PS: Now your website is with automatic deploy and with version control because you're using GIT!! ;)
         &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 23 Jan 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-01-23:using-pelican-github-parse-sendgrid-and-disqus-to-make-your-free-website.html</guid><category>pelican</category><category>github</category><category>sendgrid</category><category>disqus</category><category>website</category><category>python</category><category>parse</category><category>free</category><category>tutorial</category></item><item><title>Using PyHeaderFile to handle sheets</title><link>http://diogomunaro.com/using-pyheaderfile-to-handle-sheets.html</link><description>
+    </summary><category term="pelican"></category><category term="github"></category><category term="sendgrid"></category><category term="disqus"></category><category term="website"></category><category term="python"></category><category term="parse"></category><category term="free"></category><category term="tutorial"></category></entry><entry><title>Using PyHeaderFile to handle sheets</title><link href="http://diogomunaro.com/using-pyheaderfile-to-handle-sheets.html" rel="alternate"></link><updated>2015-01-09T17:27:00-02:00</updated><author><name>Diogo Munaro</name></author><id>tag:diogomunaro.com,2015-01-09:using-pyheaderfile-to-handle-sheets.html</id><summary type="html">
         &lt;h3&gt;
             Why working with Spreadsheets?
         &lt;/h3&gt;
@@ -498,4 +498,4 @@
             collaborate with the project in &lt;a target="_blank" href="https://github.com/kappius/pyheaderfile"&gt;GitHub&lt;/a&gt;.
             I hope you enjoy!
         &lt;/p&gt;
-    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diogo Munaro</dc:creator><pubDate>Fri, 09 Jan 2015 17:27:00 -0200</pubDate><guid>tag:diogomunaro.com,2015-01-09:using-pyheaderfile-to-handle-sheets.html</guid><category>xls</category><category>xlsx</category><category>csv</category><category>excel</category><category>libreoffice</category><category>python</category><category>module</category><category>stylesheet</category></item></channel></rss>
+    </summary><category term="xls"></category><category term="xlsx"></category><category term="csv"></category><category term="excel"></category><category term="libreoffice"></category><category term="python"></category><category term="module"></category><category term="stylesheet"></category></entry></feed>

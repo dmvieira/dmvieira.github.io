@@ -9,7 +9,7 @@ LICENSE_URL = 'http://www.apache.org/licenses/LICENSE-2.0'
 STARTYEAR = '2014'
 YEAR = datetime.date.today().year
 SITENAME = u'Diogo Munaro Vieira'
-SITESUBTITLE = u'Because Programming is Cool and IT needs simplicity'
+SITESUBTITLE = u'Tecnologia é para todos'
 SITEURL = 'http://diogomunaro.com'
 RELATIVE_URLS = True
 MENUITEMS = [('Home', '/')]
@@ -24,8 +24,8 @@ PAGE_URL = '{slug}.html'
 THEME = 'crowsfoot'
 
 TIMEZONE = 'America/Sao_Paulo'
-LOCALE = ['en_US.utf8']
-DEFAULT_LANG = u'en'
+LOCALE = ['pt_BR.UTF-8']
+DEFAULT_LANG = u'pt_br'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
