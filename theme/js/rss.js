@@ -2,7 +2,7 @@ function mkPost(item) {
     var template = ' \
     <li class="post"> \
         <header class="posttitle"> \
-        <h3><a href="' + item.link + '" \
+        <h3><a target="_blank" href="' + item.link + '" \
                 rel="bookmark" \
                 class="nodec" \
                 title="' + item.title + '">'+ item.title +'</a> \
