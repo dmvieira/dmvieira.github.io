@@ -87,8 +87,8 @@ body {
 }
 
 .postinfo {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     color: #666;
     font-size: .7em;
 }
@@ -96,10 +96,11 @@ body {
 .postsummary {
     font-family: Merriweather;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 .post {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Links. */
