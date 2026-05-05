@@ -40,7 +40,7 @@ function writePosts(output) {
 
 $(function() {
 
-    var rss = ['https://medium.com/feed/@diogomunaro', 'https://medium.com/feed/@databootcamp']
+    var rss = ['https://diogomunaro.substack.com/feed', 'https://medium.com/feed/@diogomunaro', 'https://medium.com/feed/@databootcamp']
 
     for (var i = 0; i < rss.length; i++) {
         getRss(rss[i]);
